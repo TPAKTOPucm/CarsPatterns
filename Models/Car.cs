@@ -4,11 +4,11 @@ namespace CarsPatterns.Models;
 public class Car
 {
 	public ExtraSystemWrapper? ExtraSystems { get; }
-	public uint NumberOfSeats { get; set; }
-	public uint NumberOfDoors { get; set; }
-	public uint Power { get; set; }
-	public string Make { get; set; }
-	public string Model { get; set; }
+	public uint NumberOfSeats { get; }
+	public uint NumberOfDoors { get; }
+	public uint Power { get; }
+	public string Make { get; }
+	public string Model { get; }
 
 	public Car(ExtraSystemWrapper? extraSystems, uint numberOfSeats, uint numberOfDoors, uint power, string make, string model)
 	{
